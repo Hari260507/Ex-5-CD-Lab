@@ -18,7 +18,6 @@ To write a YACC program to recognize the grammar anb where n>=10.
 %{
 #include "y.tab.h"
 %}
-
 %%
 a   { return A; }
 b   { return B; }
